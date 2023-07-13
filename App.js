@@ -26,11 +26,11 @@ export default function App() {
         >
           <Stack.Screen name="Onbording" component={Onbording} />
           <Stack.Screen name="Login" component={Login} />
-          {/* <Stack.Screen name="Signup" component={Signup} /> */}
-          {/* <Stack.Screen name="ForgotPassword" component={ForgotPassword} />           
+          <Stack.Screen name="Signup" component={Signup} />
+          {/* <Stack.Screen name="ForgotPassword" component={ForgotPassword} />            */}
 
-          <Stack.Screen name="Home" component={Tabs} /> */}
-          {/* <Stack.Screen name="Search" component={Tabs} />
+          {/* <Stack.Screen name="Home" component={Tabs} />
+          <Stack.Screen name="Search" component={Tabs} />
           <Stack.Screen name="Orders" component={Tabs} />
           <Stack.Screen name="Profile" component={Tabs} />
           <Stack.Screen name="Checkout" component={Checkout} />      
